@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOUYOUNE PARFUMERIE ET ACCESSOIRES | Abomey-Calavi</title>
+<meta name="description" content="Parfums, déodorants et accessoires à Abomey-Calavi. Ton parfum, ton charme. Commande par téléphone ou WhatsApp au 01 51 25 23 72.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#accueil">Youyoune</a>
+  <nav><a href="#produits">Produits</a><a href="#boutique">Boutique</a><a href="#contact">Commander</a></nav>
+</header>
+<main>
+<section class="hero" id="accueil">
+  <div>
+    <h1>Ton parfum, ton charme.</h1>
+    <p>Parfums, déodorants et accessoires à Abomey-Calavi. Nous vous trouvons celui qui vous ressemble.</p>
+    <div class="btns"><a class="btn" href="#contact">Commander</a><a class="btn alt" href="https://wa.me/2290151252372">WhatsApp</a></div>
+  </div>
+  <img src="img/hero.jpg" alt="Étagères de la boutique Youyoune remplies de parfums" width="900" height="1125">
+</section>
+
+<section id="produits">
+  <h2>Quelques produits de la boutique</h2>
+  <div class="grid">
+    <article class="card"><img src="img/class.jpg" alt="Class Homme Invincible, élixir de parfum 40 ml" loading="lazy"><div><h3>Class Homme Invincible</h3><p>Élixir de parfum, 40 ml.</p><span class="price">3 000 FCFA</span><button data-produit="Class Homme Invincible">Commander</button></div></article>
+    <article class="card"><img src="img/lomani.jpg" alt="Lomani pour homme, eau de toilette" loading="lazy"><div><h3>Lomani pour homme</h3><p>Eau de toilette, un parfum d’époque.</p><span class="price">4 000 FCFA</span><button data-produit="Lomani pour homme">Commander</button></div></article>
+    <article class="card"><img src="img/azure.jpg" alt="Jean Lowe Azure de Maison Alhambra" loading="lazy"><div><h3>Jean Lowe Azure</h3><p>Maison Alhambra, flacon bleu.</p><span class="price">25 000 FCFA</span><button data-produit="Jean Lowe Azure">Commander</button></div></article>
+    <article class="card"><img src="img/matelot.jpg" alt="Coffret Matelot avec trousse rayée" loading="lazy"><div><h3>Coffret Matelot</h3><p>Parfum et déodorant dans une trousse.</p><span class="price">12 000 FCFA</span><button data-produit="Coffret Matelot">Commander</button></div></article>
+    <article class="card"><img src="img/rolls.jpg" alt="Deux déodorants roll-on, rose et bleu" loading="lazy"><div><h3>Déodorants roll-on</h3><p>Rose ou bleu.</p><span class="price">1 000 FCFA, les 3 à 2 500 FCFA</span><button data-produit="Déodorant roll-on">Commander</button></div></article>
+    <article class="card"><img src="img/papier.jpg" alt="Papiers parfumés Aer en trois senteurs" loading="lazy"><div><h3>Papier parfumé</h3><p>Pour la douche, la voiture, la chambre.</p><span class="price">1 500 FCFA</span><button data-produit="Papier parfumé">Commander</button></div></article>
+  </div>
+</section>
+
+<section class="about invicto">
+  <img src="img/invicto.jpg" alt="Collection Invicto : Legend, Intense, Victorius, Victorius Elixir et Absolu" loading="lazy">
+  <div>
+    <h2>La collection Invicto</h2>
+    <p>Cinq flacons, cinq caractères : Legend, Intense, Victorius, Victorius Elixir et Absolu. Demandez-nous celui qui vous va.</p>
+    <button class="btn" data-produit="Collection Invicto">Commander</button>
+  </div>
+</section>
+
+<section class="about" id="boutique">
+  <img src="img/portrait.jpg" alt="La gérante de Youyoune devant les étagères de parfums" loading="lazy">
+  <div>
+    <h2>Une sélection que nous connaissons</h2>
+    <p>Chez Youyoune, chaque parfum est choisi puis conseillé. Passez à la boutique pour les sentir, ou commandez par téléphone.</p>
+    <blockquote>Je cherche, je sens, je choisis pour vous.</blockquote>
+  </div>
+</section>
+
+<section>
+  <div class="gallery">
+    <img src="img/g1.jpg" alt="Rayons de parfums de la boutique" loading="lazy">
+    <img src="img/g2.jpg" alt="Étagère de coffrets de parfums" loading="lazy">
+    <img src="img/g3.jpg" alt="Boutique vue en diagonale, étagères pleines" loading="lazy">
+  </div>
+</section>
+
+<div class="say">
+  <h2>Ce que disent nos clients</h2>
+  <p>« Je reçois pas mal de compliments à chaque fois que je mets celui-ci. »</p>
+  <p>« C’est une pépite, cet anti-transpirant. »</p>
+</div>
+
+<section class="contact" id="contact">
+  <h2>Commander ou poser une question</h2>
+  <p>Remplissez ce formulaire, nous vous rappelons. Livraison à domicile possible. Pour aller plus vite : <a href="tel:+2290151252372">01 51 25 23 72</a>.</p>
+  <form id="form" novalidate>
+    <label>Je veux<select name="type"><option>Commande</option><option>Question</option></select></label>
+    <label>Votre nom<input name="nom" autocomplete="name" required></label>
+    <label>Téléphone<input name="tel" type="tel" autocomplete="tel" required></label>
+    <label>E-mail (facultatif)<input name="email" type="email" autocomplete="email"></label>
+    <label>Produit<input name="produit" placeholder="Ex. Lomani pour homme"></label>
+    <label>Message<textarea name="message" rows="4" maxlength="1500" required></textarea></label>
+    <input class="trap" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn" type="submit">Envoyer</button>
+    <p id="status" role="status"></p>
+  </form>
+</section>
+</main>
+<footer>
+  <img src="img/logo.jpg" alt="Youyoune Parfumerie et accessoires" loading="lazy">
+  <p>Abomey-Calavi, Bénin<br><a href="tel:+2290151252372">01 51 25 23 72</a>, appel et WhatsApp<br><a href="https://www.facebook.com/profile.php?id=100089690372385" target="_blank" rel="noopener">Suivez-nous sur Facebook</a></p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Site statique : index.html, css/, js/, img/.
+Les demandes du formulaire arrivent dans la base Supabase "youyoune" (table demandes).
+Demande à Claude "génère l'Excel des demandes" pour obtenir la feuille à jour.
